@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apikey">c73bfcbfad6f41cfb59a919ad7bbe54b</string>
+</resources>
+
+
+<!--    val apiKey = getString(R.string.apikey)-->

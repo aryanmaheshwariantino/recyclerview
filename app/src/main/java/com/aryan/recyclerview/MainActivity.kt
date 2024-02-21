@@ -5,9 +5,7 @@ import MyAdapter
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.aryan.recyclerview.databinding.ActivityMainBinding
-
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -35,9 +33,7 @@ class MainActivity : AppCompatActivity() {
         ItemModel("Name13", "email7871@example.com", R.drawable.image3),
         ItemModel("Name14", "email7871@example.com", R.drawable.image5),
         ItemModel("Name15", "email7871@example.com", R.drawable.image10),
-
         )
-
         val layoutManager = LinearLayoutManager(this)
         // Provide the list of items to the adapter
         val adapter = MyAdapter(this, itemList)
